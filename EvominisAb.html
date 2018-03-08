@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="logoE.jpg">
+  <title>Evominis II Programa y Diviertete</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+    });
+});
+</script>
+ 
+<style> 
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #ffffff;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
+</script> 
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .jumbotron
+{   
+padding-top: 0px;
+padding-bottom:0px;
+background-size: cover;
+height:200px;
+ }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #ffffff;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 70%; /* Set width to 100% */
+      margin: auto;
+      max-height: 600px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body style="background-color:gray;">
+
+<div class="jumbotron" >
+  <div class="container text-center">
+    <h1>Evominis </h1>    
+    <img src="logoE.jpg" width="100px" class="img-rounded" class="img-responsive"> 
+    <p>Programa, crea y diviertete</p></div>
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Evominis II Programa y Diviertete</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a href="indexE.html">Home</a></li>
+        <li class="active"><a href="EvominisAb.html">Acerca de</a></li>
+        <li ><a href="EvominisPro.html">Proyectos</a></li>
+        <li><a href="EvominisContact.html">Contactanos</a></li>
+      </ul>
+
+
+
+        
+
+       
+
+
+<ul class="nav navbar-nav navbar-right">
+        
+        <li><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Iniciar Sesion</a></li></button>
+        
+         <li><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-user"></span>Nuevo Usuario?</a></li></button>
+
+          <div class="modal fade" id="myModal" role="dialog" style="top: 230px">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Login</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+  <div class="form-group">
+    <label for="email">Correo Electronico:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Contraseña:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="flip"><h3>Que esperas para oprimirme? 7u7</div>
+<div id="panel"><h4>Evominis!, creada en 2017 es la red de/para programadores de todo el mundo, crea tu clan de programadores y obten reputacion de miles de personas</h3></div>
+
+<div class="modal fade" id="myModal1" role="dialog" style="top: 600px">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Registrate</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+  <div class="form-group">
+    <label for="email">Nuevo Correo Electronico:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Contraseña:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+    <label for="pwd">Repetir Contraseña:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+  
+<div class="container text-center">    
+  <h3>Bienvenido, Unete a un clan y a programar!!!</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="html.png"class="img-circle" width="150 px" class="img-responsive" style="width:100 %" alt="Image">
+      <p>Crea tu clan!</p>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="css.png" class="img-circle" width="150 px" class="img-responsive" style="width:100 %" alt="Image">
+      <p>Unete a un clan!</p>    
+    </div>
+    <div class="col-sm-4">
+      <div class="well">
+       <h4>Hola, esto es Evominis, la comunidad del programador, ya tienes un clan de programadores?</h3>
+      </div>
+      <div class="well">
+       <h4>Los moderadores estan para ayudarte las 24 horas ;)</h4>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<footer class="container-fluid text-center">
+ 
+</footer>
+
+</body>
+</html>
